@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joe &amp; The Juice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Joe &amp; The Juice</h1>
+    <button id="cart-button" class="btn btn-cart" type="button">🛒 Cart</button>
+  </header>
+
+  <main>
+    <div class="filters-row">
+      <nav class="tabs">
+        <button class="tab active" data-filter="All" type="button">All</button>
+        <button class="tab" data-filter="Coffee" type="button">Coffee</button>
+        <button class="tab" data-filter="Juice" type="button">Juice</button>
+      </nav>
+      <input id="search" type="search" placeholder="Search drinks…">
+    </div>
+
+    <div id="item-grid"></div>
+  </main>
+
+  <div id="cart-backdrop" class="cart-backdrop" hidden></div>
+  <aside id="cart-panel" class="cart-panel" hidden>
+    <div class="cart-head">
+      <h2>Your cart</h2>
+      <button id="cart-close" class="btn btn-secondary" type="button">Close</button>
+    </div>
+    <div id="cart-lines"></div>
+    <div id="cart-footer" class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total</span>
+        <span id="cart-total">$0.00</span>
+      </div>
+      <button id="clear-cart" class="btn btn-danger" type="button">Clear cart</button>
+    </div>
+  </aside>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

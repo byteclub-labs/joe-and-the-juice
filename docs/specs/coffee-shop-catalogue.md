@@ -53,7 +53,7 @@ OUT:
 ### SPEC IN GIT
 - `BRANCH: devin/1792236906-factory-coffee-shop-catalogue`
 - `FILE: docs/specs/coffee-shop-catalogue.md`
-- `COMMIT: <filled after commit>`
+- `COMMIT: https://github.com/byteclub-labs/joe-and-the-juice/commit/24607dafb3309b35ef6b68336920dec39d5ee875`
 
 ### STATUS
 `STATUS: COMPLETE`
